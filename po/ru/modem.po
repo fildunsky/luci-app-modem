@@ -1,0 +1,660 @@
+#
+# Siriling <siriling@qq.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: luci-app-modem 1.4.1-1\n"
+"POT-Creation-Date: 2024-04-20 12:07+0100\n"
+"PO-Revision-Date: 2024-04-24 18:08+0000\n"
+"Last-Translator: Siriling <siriling@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"openwrt/luciapplicationsmodem/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+msgid "Base Setting"
+msgstr "Основные настройки"
+
+msgid "Modem"
+msgstr "Модем"
+
+msgid "Modem Config"
+msgstr "Настройки модема"
+
+msgid "Modem Status"
+msgstr "Статус модема"
+
+msgid "Modem Name"
+msgstr "Имя модема"
+
+msgid "Modem Debug"
+msgstr "Отладка модема"
+
+msgid "Modem Select"
+msgstr "Выбор модема"
+
+msgid "Check the information of the adapted modem"
+msgstr "Просмотр информации о поддерживаемом модеме"
+
+msgid "Not adapted to this modem"
+msgstr "Модем не поддерживается"
+
+msgid "(Check adapted modem)"
+msgstr "(Проверить поддерживаемые модемы)"
+
+msgid "Loading modem information"
+msgstr "Загрузка информации о модеме"
+
+msgid "Loading modem status"
+msgstr "Загрузка статуса модема"
+
+msgid "Loading modem"
+msgstr "Загрузка модема"
+
+msgid "Dial Overview"
+msgstr "Обзор подключения"
+
+msgid "Check and add modem dialing configurations"
+msgstr "Просмотр и добавление настроек подключения"
+
+msgid "Global Config"
+msgstr "Глобальные настройки"
+
+msgid "Dial Log"
+msgstr "Журнал подключения"
+
+msgid "Download Log"
+msgstr "Журнал загрузок"
+
+msgid "connect"
+msgstr "подключено"
+
+msgid "disconnect"
+msgstr "отключено"
+
+msgid "disabled"
+msgstr "отключено"
+
+msgid "Data Interface"
+msgstr "Интерфейс передачи данных"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Connect Status"
+msgstr "Статус подключения"
+
+msgid "Dial Config"
+msgstr "Настройки подключения"
+
+msgid "Config List"
+msgstr "Список настроек"
+
+msgid "Debug Your Module"
+msgstr "Отладка модуля"
+
+msgid "Select a modem for debugging"
+msgstr "Выберите модем для отладки"
+
+msgid "Network Preferences"
+msgstr "Предпочтения сети"
+
+msgid "Self Test"
+msgstr "Самотестирование"
+
+msgid "Current"
+msgstr "Текущий"
+
+msgid "Option"
+msgstr "Параметр"
+
+msgid "Config"
+msgstr "Настройка"
+
+msgid "Item"
+msgstr "Элемент"
+
+msgid "Voltage"
+msgstr "Напряжение"
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "Abnormal"
+msgstr "Аномально"
+
+msgid "Normal"
+msgstr "Нормально"
+
+msgid "Low"
+msgstr "Низкое"
+
+msgid "Somewhat High"
+msgstr "Повышенное"
+
+msgid "Excessively High"
+msgstr "Слишком высокое"
+
+msgid "AT Command"
+msgstr "AT-команда"
+
+msgid "Quick Option"
+msgstr "Быстрый выбор"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Custom"
+msgstr "Пользовательский"
+
+msgid "Quick Commands"
+msgstr "Быстрые команды"
+
+msgid "Enter Command"
+msgstr "Введите команду"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "Clean"
+msgstr "Очистить"
+
+msgid "Response"
+msgstr "Ответ"
+
+msgid "Return to old page"
+msgstr "Вернуться на старую страницу"
+
+msgid "Return to modem debug"
+msgstr "Вернуться к отладке модема"
+
+msgid "Custom quick commands"
+msgstr "Пользовательские быстрые команды"
+
+msgid "Customize your quick commands"
+msgstr "Настройте свои быстрые команды"
+
+msgid "Custom Commands"
+msgstr "Пользовательские команды"
+
+msgid "Serial Number"
+msgstr "Номер по порядку"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Command"
+msgstr "Команда"
+
+msgid "Modem Information"
+msgstr "Информация о модеме"
+
+msgid "No modems found"
+msgstr "Модемы не найдены"
+
+msgid "(Check the reason)"
+msgstr "(Проверить причину)"
+
+msgid "Enable dial configurations"
+msgstr "Включить настройки подключения"
+
+msgid "General Settings"
+msgstr "Общие настройки"
+
+msgid "Advanced Settings"
+msgstr "Расширенные настройки"
+
+msgid "Remarks"
+msgstr "Заметки"
+
+msgid "Mobile Network"
+msgstr "Мобильная сеть"
+
+msgid "UNKNOWN"
+msgstr "НЕИЗВЕСТНО"
+
+msgid "Unknown"
+msgstr "Неизвестно"
+
+msgid "unknown"
+msgstr "неизвестно"
+
+msgid "Mobile network not found"
+msgstr "Мобильная сеть не найдена"
+
+msgid "The network device was not found"
+msgstr "Сетевое устройство не найдено"
+
+msgid "Only display the modes available for the adaptation modem"
+msgstr "Показать только режимы, поддерживаемые модемом"
+
+msgid "Config ID"
+msgstr "ID настройки"
+
+msgid "Dial Tool"
+msgstr "Инструмент набора"
+
+msgid "After switching the dialing tool, it may be necessary to restart the module or restart the router to recognize the module."
+msgstr "После смены инструмента набора может потребоваться перезапустить модем или роутер для его обнаружения."
+
+msgid "Auto Choose"
+msgstr "Автоматический выбор"
+
+msgid "quectel-CM"
+msgstr "Инструмент набора Quectel"
+
+msgid "mmcli"
+msgstr "Инструмент управления модемом (mmcli)"
+
+msgid "PDP Type"
+msgstr "Тип PDP"
+
+msgid "Network Bridge"
+msgstr "Сетевой мост"
+
+msgid "After checking, enable network interface bridge."
+msgstr "При активации — включить мост между интерфейсами."
+
+msgid "APN"
+msgstr "APN"
+
+msgid "China Mobile"
+msgstr "China Mobile"
+
+msgid "China Unicom"
+msgstr "China Unicom"
+
+msgid "China Telecom"
+msgstr "China Telecom"
+
+msgid "China Broadcast"
+msgstr "China Broadcast"
+
+msgid "Skytone"
+msgstr "Skytone"
+
+msgid "Authentication Type"
+msgstr "Тип аутентификации"
+
+msgid "PAP/CHAP (both)"
+msgstr "PAP/CHAP (оба)"
+
+msgid "NONE"
+msgstr "Нет"
+
+msgid "PAP/CHAP Username"
+msgstr "Имя пользователя PAP/CHAP"
+
+msgid "PAP/CHAP Password"
+msgstr "Пароль PAP/CHAP"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Base Information"
+msgstr "Базовая информация"
+
+msgid "Manufacturer"
+msgstr "Производитель"
+
+msgid "Revision"
+msgstr "Версия прошивки"
+
+msgid "AT Port"
+msgstr "AT-порт"
+
+msgid "Temperature"
+msgstr "Температура"
+
+msgid "Update Time"
+msgstr "Время обновления"
+
+msgid "SIM Information"
+msgstr "Информация SIM"
+
+msgid "Unknown SIM card status"
+msgstr "Статус SIM неизвестен"
+
+msgid "SIM card not inserted"
+msgstr "SIM-карта не вставлена"
+
+msgid "ISP"
+msgstr "Оператор"
+
+msgid "SIM Status"
+msgstr "Статус SIM"
+
+msgid "miss"
+msgstr "не вставлена"
+
+msgid "locked"
+msgstr "заблокирована"
+
+msgid "SIM Slot"
+msgstr "Слот SIM"
+
+msgid "SIM Number"
+msgstr "Номер SIM"
+
+msgid "IMEI"
+msgstr "IMEI"
+
+msgid "IMSI"
+msgstr "IMSI"
+
+msgid "ICCID"
+msgstr "ICCID"
+
+msgid "Network Information"
+msgstr "Информация о сети"
+
+msgid "Network Type"
+msgstr "Тип сети"
+
+msgid "CQI UL"
+msgstr "Качество UL-канала (CQI UL)"
+
+msgid "CQI DL"
+msgstr "Качество DL-канала (CQI DL)"
+
+msgid "AMBR UL"
+msgstr "Макс. битрейт UL (AMBR UL)"
+
+msgid "AMBR DL"
+msgstr "Макс. битрейт DL (AMBR DL)"
+
+msgid "Tx Rate"
+msgstr "Скорость передачи"
+
+msgid "Rx Rate"
+msgstr "Скорость приёма"
+
+msgid "RSSI"
+msgstr "RSSI (уровень сигнала)"
+
+msgid "BER"
+msgstr "BER (ошибки)"
+
+msgid "Cell Information"
+msgstr "Информация о ячейке"
+
+msgid "Network Mode"
+msgstr "Режим сети"
+
+msgid "NR5G-SA Mode"
+msgstr "Режим NR5G-SA"
+
+msgid "EN-DC Mode"
+msgstr "Режим EN-DC"
+
+msgid "LTE Mode"
+msgstr "Режим LTE"
+
+msgid "WCDMA Mode"
+msgstr "Режим WCDMA"
+
+msgid "GSM Mode"
+msgstr "Режим GSM"
+
+msgid "MCC"
+msgstr "MCC (код страны)"
+
+msgid "MNC"
+msgstr "MNC (код оператора)"
+
+msgid "Duplex Mode"
+msgstr "Дуплексный режим"
+
+msgid "LAC"
+msgstr "LAC (код зоны)"
+
+msgid "Cell ID"
+msgstr "Cell ID (ID ячейки)"
+
+msgid "Physical Cell ID"
+msgstr "Физический Cell ID"
+
+msgid "TAC"
+msgstr "TAC (код области)"
+
+msgid "ARFCN"
+msgstr "ARFCN (радиоканал)"
+
+msgid "EARFCN"
+msgstr "EARFCN (LTE-канал)"
+
+msgid "UARFCN"
+msgstr "UARFCN (UMTS-канал)"
+
+msgid "Band"
+msgstr "Диапазон"
+
+msgid "Freq band indicator"
+msgstr "Индикатор диапазона"
+
+msgid "UL Bandwidth"
+msgstr "UL-ширина канала"
+
+msgid "DL Bandwidth"
+msgstr "DL-ширина канала"
+
+msgid "RSRP"
+msgstr "RSRP (мощность приёма)"
+
+msgid "RSRQ"
+msgstr "RSRQ (качество приёма)"
+
+msgid "RSSI"
+msgstr "RSSI (сила сигнала)"
+
+msgid "SINR"
+msgstr "SINR (соотношение сигнал/шум)"
+
+msgid "RxLev"
+msgstr "RxLev (уровень сигнала)"
+
+msgid "RSSNR"
+msgstr "RSSNR (соотношение сигнал/шум)"
+
+msgid "SCS"
+msgstr "SCS (поднесущая)"
+
+msgid "CQI"
+msgstr "CQI (качество канала)"
+
+msgid "TX Power"
+msgstr "Мощность передачи"
+
+msgid "Srxlev"
+msgstr "Srxlev (уровень сигнала)"
+
+msgid "PSC"
+msgstr "PSC (код пилота)"
+
+msgid "RAC"
+msgstr "RAC (код маршрутизации)"
+
+msgid "RSCP"
+msgstr "RSCP (мощность приёма сигнала)"
+
+msgid "Eb/Io"
+msgstr "Eb/Io (отношение энергии на бит к интерференции)"
+
+msgid "Eb/No"
+msgstr "Eb/No (энергия на бит/шум)"
+
+msgid "Ec/Io"
+msgstr "Ec/Io (энергия на чип/интерференция)"
+
+msgid "Ec/No"
+msgstr "Ec/No (энергия на чип/шум)"
+
+msgid "Physical Channel"
+msgstr "Физический канал"
+
+msgid "Spreading Factor"
+msgstr "Фактор расширения спектра"
+
+msgid "Slot"
+msgstr "Слот"
+
+msgid "Speech Code"
+msgstr "Кодек речи"
+
+msgid "Compression Mode"
+msgstr "Режим сжатия"
+
+msgid "CHN-CMCC"
+msgstr "China Mobile"
+
+msgid "CMCC"
+msgstr "China Mobile"
+
+msgid "46000"
+msgstr "China Mobile"
+
+msgid "CHN-UNICOM"
+msgstr "China Unicom"
+
+msgid "UNICOM"
+msgstr "China Unicom"
+
+msgid "CUCC"
+msgstr "China Unicom"
+
+msgid "46001"
+msgstr "China Unicom"
+
+msgid "CHN-CT"
+msgstr "China Telecom"
+
+msgid "CHN-TELECOM"
+msgstr "China Telecom"
+
+msgid "CTCC"
+msgstr "China Telecom"
+
+msgid "CT"
+msgstr "China Telecom"
+
+msgid "46011"
+msgstr "China Telecom"
+
+msgid "Excellent"
+msgstr "Отлично"
+
+msgid "Good"
+msgstr "Хорошо"
+
+msgid "Fair"
+msgstr "Удовлетворительно"
+
+msgid "Bad"
+msgstr "Плохо"
+
+msgid "Plugin Config"
+msgstr "Настройки плагина"
+
+msgid "Check and modify the plugin configuration"
+msgstr "Просмотр и изменение настроек плагина"
+
+msgid "Modem Scan"
+msgstr "Сканирование модема"
+
+msgid "Scan"
+msgstr "Сканировать"
+
+msgid "Scaning modem..."
+msgstr "Сканирование модема..."
+
+msgid "The automatic configuration modem is triggered only at modem startup, otherwise, manual scanning is necessary"
+msgstr "Автоматическая настройка запускается только при старте модема, в остальных случаях требуется ручной запуск"
+
+msgid "Manual Configuration"
+msgstr "Ручная настройка"
+
+msgid "Enable the manual configuration of modem information"
+msgstr "Включить ручную настройку модема"
+
+msgid "(After enable, the automatic scanning and configuration function for modem information will be disabled)"
+msgstr "(После включения автоматическое сканирование и настройка будут отключены)"
+
+msgid "Network Interface Alias"
+msgstr "Псевдоним сетевого интерфейса"
+
+msgid "Enable automatic creation of network interface alias (Effective upon reinstatement of dialing configuration)"
+msgstr "Включить авто-создание псевдонима интерфейса (вступит в силу после повторного применения настроек)"
+
+msgid "Not null"
+msgstr "Не может быть пустым"
+
+msgid "missing"
+msgstr "обязательное поле не заполнено"
+
+msgid "Plugin Info"
+msgstr "Информация о плагине"
+
+msgid "Check the version information of the plugin"
+msgstr "Просмотр информации о версии плагина"
+
+msgid "Plugin Version"
+msgstr "Версия плагина"
+
+msgid "Dial Tool Info"
+msgstr "Информация о инструменте набора"
+
+msgid "Version"
+msgstr "Версия"
+
+msgid "Not installed"
+msgstr "Не установлено"
+
+msgid "Modem General Driver Info"
+msgstr "Общие драйверы модема"
+
+msgid "Driver Type"
+msgstr "Тип драйвера"
+
+msgid "Kernel Model"
+msgstr "Модуль ядра"
+
+msgid "USB Network"
+msgstr "USB-сеть"
+
+msgid "Serial Port"
+msgstr "Последовательный порт"
+
+msgid "Loaded"
+msgstr "Загружено"
+
+msgid "Not loaded"
+msgstr "Не загружено"
+
+msgid "Modem USB Driver Info"
+msgstr "USB-драйвер модема"
+
+msgid "Modem PCIE Driver Info"
+msgstr "PCIE-драйвер модема"
+
+msgid "General"
+msgstr "Общее"
+
+msgid "Private"
+msgstr "Приватный"
+
+msgid "Private (Quectel)"
+msgstr "Приватный (Quectel)"
+
+msgid "Private (Fibocom)"
+msgstr "Приватный (Fibocom)"
+
+msgid "Private (Meig)"
+msgstr "Приватный (Meig)"
+
