@@ -1,5 +1,3 @@
-# 中文 | [English](https://github.com/Siriling/5G-Modem-Support/blob/main/EngLish.md) | [Русский](https://github.com/Siriling/5G-Modem-Support/blob/main/Russian.md)
-
 # luci-app-modem
 
 ## Оглавление
