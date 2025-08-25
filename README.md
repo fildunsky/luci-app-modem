@@ -2,52 +2,47 @@
 
 # luci-app-modem
 
-# 目录
+## Оглавление
 
-[一、说明](#一说明)
+- [1. Описание](#1-описание)
+- [2. Поддерживаемые модемы](#2-поддерживаемые-модемы)
 
-[二、模组支持](#二模组支持)
+## 1. Описание
 
-# 一、说明
+- Поддержка модемов с интерфейсами USB и PCIe
+- Возможность настройки нескольких модемов для одновременного использования
+- Поддержка IPv6
+- Совместимость с модемами на платформах Qualcomm, UNISOC, MediaTek
+- Поддержка популярных производителей модемов (например: Quectel, Fibocom и др.)
 
-- 支持USB和PCIe两种通信方式的通信模组
+## 2. Поддерживаемые модемы
 
-- 支持配置多个通信模组进行拨号
+Ниже перечислены модемы, поддерживаемые данным плагином:
 
-- 支持IPv6
-
-- 支持高通，紫光展锐，联发科等平台的通信模组
-
-- 支持常见厂商的通信模组（例如：移远，广和通等）
-
-# 二、模组支持
-
-下面列出插件支持的模组
-
-| 厂家名称 | 模组名称                                           | 平台     | 数据传输模式 | 端口模式                     |
-| -------- | -------------------------------------------------- | -------- | ------------ | ---------------------------- |
-| 移远通信 | RG200U-CN（DONGLE版）                              | 紫光展锐 | USB          | ECM，MBIM，RNDIS，NCM        |
-| 移远通信 | RM500U-CN                                          | 紫光展锐 | USB          | ECM，MBIM，RNDIS，NCM        |
-| 移远通信 | RM500U-EA                                          | 紫光展锐 | USB          | ECM，MBIM，RNDIS，NCM        |
-| 移远通信 | RM500U-CNV                                         | 紫光展锐 | USB          | ECM，MBIM，RNDIS，NCM        |
-| 移远通信 | RM500Q-CN                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM500Q-AE                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM500Q-GL                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM502Q-AE                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM502Q-GL                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM505Q-AE                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM520N-CN                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM520N-GL                                          | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 移远通信 | RM500Q-GL                                          | 高通     | PCIE         | RMNET，MBIM                  |
-| 移远通信 | RG500Q-EA                                          | 高通     | PCIE         | RMNET，MBIM                  |
-| 移远通信 | RM502Q-GL                                          | 高通     | PCIE         | RMNET，MBIM                  |
-| 移远通信 | RM520N-GL                                          | 高通     | PCIE         | RMNET，MBIM                  |
-| 移远通信 | RG520N-EU                                          | 高通     | PCIE         | RMNET，MBIM                  |
-| 广和通   | FM650-CN                                           | 紫光展锐 | USB          | ECM，MBIM，RNDIS，NCM        |
-| 广和通   | FM350-GL                                           | 联发科   | USB          | RNDIS                        |
-| 广和通   | FM150-AE-01，FM150-AE-11，FM150-AE-21，FM150-NA-01 | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 广和通   | FM350-GL                                           | 联发科   | PCIE         | MBIM                         |
-| 广和通   | FM150-AE-00，FM150-AE-10，FM150-AE-20，FM150-NA-00 | 高通     | PCIE         | QMI                          |
-| 美格智能 | SRM815                                             | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 美格智能 | SRM825                                             | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
-| 美格智能 | SRM825N                                            | 高通     | USB          | RMNET，ECM，MBIM，RNDIS，NCM |
+| Производитель | Название модема                                    | Платформа   | Режим передачи данных | Тип интерфейса               |
+| ------------- | -------------------------------------------------- | ----------- | --------------------- | ---------------------------- |
+| Quectel       | RG200U-CN (версия DONGLE)                          | UNISOC      | USB                   | ECM, MBIM, RNDIS, NCM        |
+| Quectel       | RM500U-CN                                          | UNISOC      | USB                   | ECM, MBIM, RNDIS, NCM        |
+| Quectel       | RM500U-EA                                          | UNISOC      | USB                   | ECM, MBIM, RNDIS, NCM        |
+| Quectel       | RM500U-CNV                                         | UNISOC      | USB                   | ECM, MBIM, RNDIS, NCM        |
+| Quectel       | RM500Q-CN                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM500Q-AE                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM500Q-GL                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM502Q-AE                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM502Q-GL                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM505Q-AE                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM520N-CN                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM520N-GL                                          | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Quectel       | RM500Q-GL                                          | Qualcomm    | PCIe                  | RMNET, MBIM                  |
+| Quectel       | RG500Q-EA                                          | Qualcomm    | PCIe                  | RMNET, MBIM                  |
+| Quectel       | RM502Q-GL                                          | Qualcomm    | PCIe                  | RMNET, MBIM                  |
+| Quectel       | RM520N-GL                                          | Qualcomm    | PCIe                  | RMNET, MBIM                  |
+| Quectel       | RG520N-EU                                          | Qualcomm    | PCIe                  | RMNET, MBIM                  |
+| Fibocom       | FM650-CN                                           | UNISOC      | USB                   | ECM, MBIM, RNDIS, NCM        |
+| Fibocom       | FM350-GL                                           | MediaTek    | USB                   | RNDIS                        |
+| Fibocom       | FM150-AE-01, FM150-AE-11, FM150-AE-21, FM150-NA-01 | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Fibocom       | FM350-GL                                           | MediaTek    | PCIe                  | MBIM                         |
+| Fibocom       | FM150-AE-00, FM150-AE-10, FM150-AE-20, FM150-NA-00 | Qualcomm    | PCIe                  | QMI                          |
+| Meig Smart    | SRM815                                             | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Meig Smart    | SRM825                                             | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
+| Meig Smart    | SRM825N                                            | Qualcomm    | USB                   | RMNET, ECM, MBIM, RNDIS, NCM |
